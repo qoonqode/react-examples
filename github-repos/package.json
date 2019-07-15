@@ -1,0 +1,29 @@
+{
+  "name": "github-repos",
+  "version": "1.0.0",
+  "description": "List GitHub repos by user!",
+  "main": "index.js",
+  "repository": "git@github.com:qoonqode/proxied-server.git",
+  "author": "Charles Baker <zach@bearmail.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@octokit/rest": "^16.28.4",
+    "autoprefixer": "^9.6.1",
+    "postcss-modules": "^1.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "parcel-bundler": "^1.12.3"
+  }
+}
