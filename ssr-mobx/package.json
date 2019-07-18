@@ -1,0 +1,27 @@
+{
+  "name": "ssr-mobx",
+  "version": "1.0.0",
+  "description": "Example project using SSR (via Next.JS) and MobX for state management.",
+  "main": "index.js",
+  "author": "Charles Baker <zach@bearmail.net>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mobx": "^5.11.0",
+    "mobx-react": "^6.1.1",
+    "next": "^9.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-decorators": "^7.4.4"
+  }
+}
